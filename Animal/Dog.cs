@@ -10,14 +10,14 @@ namespace AnimalZoo
     {
         public Dog(string name)
         {
-            Name = name;
-            Species = SPECIES.DOG;
-            CanFly = false;
+            base.name = name;
+            species = SPECIES.DOG;
+            canFly = false;
         }
 
         public override void IntroduceYourself()
         {
-            Console.WriteLine("Vov. Jag är en hund som heter " + Name);
+            Console.WriteLine("Vov. Jag är en hund som heter " + name);
         }
 
     }

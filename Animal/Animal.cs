@@ -10,13 +10,13 @@ namespace AnimalZoo
     {
         public enum SPECIES { CAT, DOG, BIRD }
 
-        public string Name { get; set; }
-        public SPECIES Species { get; set; }
-        public bool CanFly { get; set; }
+        public string name { get; set; }
+        public SPECIES species { get; set; }
+        public bool canFly { get; set; }
 
         public virtual void IntroduceYourself()
         {
-            Console.WriteLine("Morr.Jag är ett djur som heter "+Name);
+            Console.WriteLine("Morr.Jag är ett djur som heter "+name);
         }
     }
 

@@ -23,7 +23,7 @@ namespace AnimalZoo
             while (i < allAnimals.Length)
             {
                 // will this work?  should it?
-                Console.WriteLine("Nu kommer " + allAnimals[i].Name);
+                Console.WriteLine("Nu kommer " + allAnimals[i].name);
 
                 allAnimals[i].IntroduceYourself();
                 i = i + 1;

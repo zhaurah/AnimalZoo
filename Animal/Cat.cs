@@ -10,14 +10,14 @@ namespace AnimalZoo
     {
         public Cat(string name)
         {
-            Name = name;
-            Species = SPECIES.CAT;
-            CanFly = false;
+            base.name = name;
+            species = SPECIES.CAT;
+            canFly = false;
         }
 
         public override void IntroduceYourself()
         {
-            Console.WriteLine("Mjau. Jag är en katt som heter " + Name);
+            Console.WriteLine("Mjau. Jag är en katt som heter " + name);
         }
 
     }
